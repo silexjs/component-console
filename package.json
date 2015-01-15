@@ -1,0 +1,33 @@
+{
+	"name": "silex-component-console",
+	"version": "0.0.1",
+	"description": "[SILEX][COMPONENT] Little console system",
+	"author": "Valentin Allaire <valentin@sitexw.fr>",
+	"license": "MIT",
+	"keywords": [
+		"console",
+		"silex",
+		"component"
+	],
+	"main": "index.js",
+	"dependencies": {
+		"minimist": "1.x"
+	},
+	"devDependencies": {},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/silexjs/component-console.git"
+	},
+	"bugs": {
+		"url": "https://github.com/silexjs/component-console/issues"
+	},
+	"homepage": "https://github.com/silexjs/component-console",
+	"autoload": {
+		"psr-4": {
+			"Silex\\Component\\Console": "./lib/"
+		}
+	}
+}
